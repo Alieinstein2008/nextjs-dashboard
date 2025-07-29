@@ -1,6 +1,7 @@
 import SideNav from '@/app/ui/dashboard/sidenav';
 
-export const experimental_pprt = true;
+//Comentando porque a pré-renderização parcial não é suportada pelo vercel, gerando erro de implatação
+//export const experimental_pprt = true;
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
