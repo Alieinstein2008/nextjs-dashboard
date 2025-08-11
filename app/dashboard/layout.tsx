@@ -2,12 +2,9 @@ import SideNav from '@/app/ui/dashboard/sidenav';
 
 //Comentando porque a pré-renderização parcial não é suportada pelo vercel, gerando erro de implatação
 //export const experimental_pprt = true;
-<<<<<<< HEAD
 //deploy na vercel!
-=======
 //Retornando o alinhamento entre os repositorios 
 
->>>>>>> b524589e3bbb108e0f7ba69e33c9ccace4757e10
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
