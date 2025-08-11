@@ -5,6 +5,7 @@ import SideNav from '@/app/ui/dashboard/sidenav';
 <<<<<<< HEAD
 //deploy na vercel!
 =======
+//Retornando o alinhamento entre os repositorios 
 
 >>>>>>> b524589e3bbb108e0f7ba69e33c9ccace4757e10
 export default function Layout({ children }: { children: React.ReactNode }) {
